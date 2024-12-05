@@ -1,0 +1,19 @@
+name: stockai
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - black
+  - flake8
+  - isort
+  - pip
+  - typer
+  - loguru
+  - tqdm
+  - pytorch
+  - torchvision
+  - pip:
+    - python-dotenv
+    - mkdocs
+    - -e .

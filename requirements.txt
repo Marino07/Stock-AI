@@ -1,0 +1,12 @@
+black
+flake8
+isort
+typer
+loguru
+tqdm
+torch
+torchvision
+torchaudio
+python-dotenv
+mkdocs
+-e .
